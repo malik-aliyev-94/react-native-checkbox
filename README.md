@@ -1,11 +1,15 @@
-# React Native CheckBox component
+## React Native CheckBox component
 
 ## Installation
+
+```bash
+npm i @malik.aliyev.94/react-native-checkbox
+```
 
 ## Usage example
 
 ```javascript
-import CheckBox from './src/components/CheckBox';
+import CheckBox from '@malik.aliyev.94/react-native-checkbox';
 ```
 
 ```javascript
@@ -35,7 +39,7 @@ import CheckBox from './src/components/CheckBox';
 ```javascript
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import CheckBox from './src/components/CheckBox';
+import CheckBox from '@malik.aliyev.94/react-native-checkbox';
 
 const Heading = ({title}) => (
   <Text style={{fontSize: 20, fontWeight: 'bold', color: '#AAA', marginTop: 30}}>{title}</Text>
@@ -72,7 +76,7 @@ const styles = StyleSheet.create({
 ```javascript
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import CheckBox from './src/components/CheckBox';
+import CheckBox from '@malik.aliyev.94/react-native-checkbox';
 
 const Heading = ({title}) => (
   <Text style={{fontSize: 20, fontWeight: 'bold', color: '#AAA', marginTop: 30}}>{title}</Text>
@@ -115,7 +119,7 @@ const styles = StyleSheet.create({
 ```javascript
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import CheckBox from './src/components/CheckBox';
+import CheckBox from '@malik.aliyev.94/react-native-checkbox';
 
 const Heading = ({title}) => (
   <Text style={{fontSize: 20, fontWeight: 'bold', color: '#AAA', marginTop: 30}}>{title}</Text>
@@ -178,7 +182,7 @@ const styles = StyleSheet.create({
 ```javascript
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
-import CheckBox from './src/components/CheckBox';
+import CheckBox from '@malik.aliyev.94/react-native-checkbox';
 
 const Heading = ({title}) => (
   <Text style={{fontSize: 20, fontWeight: 'bold', color: '#AAA', marginTop: 30}}>{title}</Text>
@@ -242,7 +246,7 @@ You can create your custom view using componentChecked and componentNotChecked p
 ```javascript
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import CheckBox from './src/components/CheckBox';
+import CheckBox from '@malik.aliyev.94/react-native-checkbox';
 
 const ComponentChecked = (props) => (
   <View style={{padding: 10, borderRadius: 6, backgroundColor: 'blue'}}>

@@ -5,5 +5,6 @@
   "main": "index.js",
   "repository": "https://github.com/malik-aliyev-94/react-native-checkbox.git",
   "author": "Malik Aliyev",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": ["react-native", "checkbox", "react-native-checkbox", "custom-checkbox"]
 }
