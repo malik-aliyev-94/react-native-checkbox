@@ -1,0 +1,9 @@
+{
+  "name": "react-native-custom-checkbox",
+  "version": "1.0.0",
+  "description": "Custom React Native checkbox",
+  "main": "index.js",
+  "repository": "https://github.com/malik-aliyev-94/react-native-checkbox.git",
+  "author": "Malik Aliyev",
+  "license": "ISC"
+}
