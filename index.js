@@ -44,25 +44,26 @@ export default class CheckBox extends Component {
       disabled: props.disabled ? props.disabled : false,
       onChange: props.onChange ? props.onChange : () => {},
       content: (props.content && ['append', 'prepend'].includes(props.content)) ? props.content : 'append'
+    }, () => {
+      if (changed)
+        this.state.onChange({
+          'name': this.state.name,
+          'checked': this.state.checked,
+          'value': this.state.value
+        });
     });
-
-    if (changed)
-      this.state.onChange({
-        'name': this.state.name,
-        'checked': this.state.checked,
-        'value': this.state.value
-      });
   }
 
   toggle () {
     if ( !this.state.disabled ) {
       this.setState({
         checked: !this.state.checked
-      });
-      this.state.onChange({
-        'name': this.state.name,
-        'checked': this.state.checked,
-        'value': this.state.value
+      }, () => {
+        this.state.onChange({
+          'name': this.state.name,
+          'checked': this.state.checked,
+          'value': this.state.value
+        });
       });
     }
 
